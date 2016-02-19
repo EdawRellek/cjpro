@@ -6,6 +6,8 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     --Commented out code in file to test.  Looks like this code was used in previous version and I forgot to take it out!  Oops! ;)
     
 2.  Add the sort option of default currency code to either the API call made to Commission Junction (if possible this is the best scenario) OR add to existing SQL statements that pull data from database.
+    *****Moving Currency selector from Options page to the "Create Campaign" page for greater flexibilty.
+
 3.  If using WooCommerce to dispaly products I need to display the "Product" Categories instead of "Post" categories in (cj-create.php & cj-display-products.php)
 4. Set Api Call timeout.
 5. Research various image file types to set up as many rules to alter their URL and sideload them into Wordpress if initial image file extension is either too small or not ending in .jpg/png
