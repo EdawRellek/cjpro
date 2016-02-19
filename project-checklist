@@ -11,13 +11,13 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
 
 3.  (COMPLETED) If using WooCommerce to dispaly products I need to display the "Product" Categories instead of "Post" categories in (cj-create.php & cj-display-products.php)
 
-4. Set Api Call timeout.
+4. (COMPLETED) Set Api Call timeout.
     added set_time_limit(60); to cj-results script.  Initial test corrected problem of script not finishing and changing the button & products found variables on display.php
     ****Need to test further to verifiy if it was  set_time_limit(60); that corrected the issue or another factor
     
 5. Research various image file types to set up as many rules to alter their URL and sideload them into Wordpress if initial image file extension is either too small or not ending in .jpg/png
 
-6. Fix Issue with wrong Author ID being stored in categories database when creating campaign
+6. (COMPLETED) Fix Issue with wrong Author ID being stored in categories database when creating campaign
     **** removed stripslashes & strip_tags .... already using sanitize_text_field
 
 7. Move Default sort_by and sort_order from Options to store in Category DB 
