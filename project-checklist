@@ -18,6 +18,15 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
 5. Research various image file types to set up as many rules to alter their URL and sideload them into Wordpress if initial image file extension is either too small or not ending in .jpg/png
 
 6. Fix Issue with wrong Author ID being stored in categories database when creating campaign
+    **** removed stripslashes & strip_tags .... already using sanitize_text_field
 
 7. Move Default sort_by and sort_order from Options to store in Category DB 
     If so it removes hidden fields from Options page
+
+8.  Cron job Set Up
+    - Make sure post status is set to default if Cron Is being used.  If checkbox on Options page is set set default post status to 'pending'/draft
+    - Create Cron Schedule For each campaign that creates a unique timeframe.
+    - Create Cron Event for each campaign 
+    - Create function that executes changing the post status when cron fires
+    - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
+    - Create function that removes all cron scheules and events when plugin is deactivated.
