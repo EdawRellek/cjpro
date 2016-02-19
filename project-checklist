@@ -21,7 +21,12 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     **** removed stripslashes & strip_tags .... already using sanitize_text_field
 
 7. Move Default sort_by and sort_order from Options to store in Category DB 
-    If so it removes hidden fields from Options page
+   -add default posts per page set in options to category db.
+   -edit drop downs in display-products.php to pull data from category database and not options page.
+   -change ajax request to refresh display-products page to reflect data pulled from different sournce (if needed)
+   -change cjpro_show_posted function (line 498 cj-display-products.php) to update campaign database with new data.
+   -remove inputs from options page
+    
 
 8.  Cron job Set Up
     - Make sure post status is set to default if Cron Is being used.  If checkbox on Options page is set set default post status to 'pending'/draft
