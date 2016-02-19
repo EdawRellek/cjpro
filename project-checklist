@@ -2,14 +2,14 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
 
 
 
-1.  Test if I still need to use the .cj-pro-get-products-form ajax call (line 167 cjpro.js)
+1.(COMPLETED -  Removed and added to junk-remove.php line 322 if needed in future)  Test if I still need to use the .cj-pro-get-products-form ajax call (line 167 cjpro.js)
     --Commented out code in file to test.  Looks like this code was used in previous version and I forgot to take it out!  Oops! ;)
     
 2.(COMPLETED)  Add the sort option of default currency code to either the API call made to Commission Junction (if possible this is the best scenario) OR add to existing SQL statements that pull data from database.
     *****Moving Currency selector from Options page to the "Create Campaign" page for greater flexibilty.
     *****Added CURRENCY variable to API GET URL to limit results through API 
 
-3.  If using WooCommerce to dispaly products I need to display the "Product" Categories instead of "Post" categories in (cj-create.php & cj-display-products.php)
+3.  (COMPLETED) If using WooCommerce to dispaly products I need to display the "Product" Categories instead of "Post" categories in (cj-create.php & cj-display-products.php)
 
 4. Set Api Call timeout.
 5. Research various image file types to set up as many rules to alter their URL and sideload them into Wordpress if initial image file extension is either too small or not ending in .jpg/png
