@@ -10,5 +10,8 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     *****Added CURRENCY variable to API GET URL to limit results through API 
 
 3.  If using WooCommerce to dispaly products I need to display the "Product" Categories instead of "Post" categories in (cj-create.php & cj-display-products.php)
+
 4. Set Api Call timeout.
 5. Research various image file types to set up as many rules to alter their URL and sideload them into Wordpress if initial image file extension is either too small or not ending in .jpg/png
+
+6. Fix Issue with wrong Author ID being stored in categories database when creating campaign
