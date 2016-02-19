@@ -14,11 +14,7 @@ options table (cjpro_settings) vars
       Use product title as tags or user input as tags
   7. cj_poster_pro_posts_per_page
       Defaults posts per page on Display Products Page
-  8. cj_poster_pro_sort_by
-      Sets Default sort by to ASC
-  9. cj_poster_pro_order_by
-      Sets Default sort order to 'NULL'
-  10. cj_poster_pro_cron_check
+  8. cj_poster_pro_cron_check
       Use Cron Job to Drip Feed Post - This changes status from "Pending"/Draft To "Publish" based on time frame user indicates.
-  11. cj_poster_pro_cron_time
+  9. cj_poster_pro_cron_time
       Now timeframe can be set per Campaign -  Can Be removed?
