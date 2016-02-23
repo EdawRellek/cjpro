@@ -36,4 +36,8 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
     - Create function that removes all cron scheules and events when plugin is deactivated.
     
-9.  Verify Mobile Responsive Look and feel for all admin pages
+9.  - add create new category option to "create campaign" page & Single campaign Page
+
+10. - Get new post count on single campaign update
+
+10. - Verify Mobile Responsive Look and feel for all admin pages
