@@ -26,6 +26,18 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
    -(COMPLETED)change ajax request to refresh display-products page to reflect data pulled from different sournce (if needed)
    -(COMPLETED)change cjpro_show_posted function (line 506 cj-display-products.php) to update campaign database with new data.
    -(COMPLETED)remove inputs from options page
+   
+8. Create a method to where users can test and update file images sent through the API
+    -(COMPLETED) Section created on single-display.php page 
+    - (COMPLETED)3 part system allows for single word replacement, single number and dual number replacement
+    -(COMPLETED) Input data used to control this function is serialized and store in campaigns db
+    - (COMPLETED)Pulls in test link and after user determines what method to use to try and enlarge the image it provides a test link where the user can verify that their input has sucessfully changed the image size.
+    - (COMPLETED)Add button to then update all the images.
+    - create ajax to add new iamges to all products in current campaign.
+    - New images are stored??? In an array under cj_img_url db column?  
+    - How to confirm if new images are set?  If count array = 2 then new image has been added and to use that one.  
+    - This keeps original image url intact in case user want to delete all new iamges in case of error
+    - Create delete new images button.
     
 
 8.  Cron job Set Up
