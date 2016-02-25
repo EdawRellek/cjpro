@@ -33,8 +33,8 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     -(COMPLETED) Input data used to control this function is serialized and store in campaigns db
     - (COMPLETED)Pulls in test link and after user determines what method to use to try and enlarge the image it provides a test link where the user can verify that their input has sucessfully changed the image size.
     - (COMPLETED)Add button to then update all the images.
-    - create ajax to add new iamges to all products in current campaign.
-    - New images are stored??? In an array under cj_img_url db column?  
+    - (NEED TO VERIFY - Single Word & Dual Number) create ajax to add new iamges to all products in current campaign.
+    - Images currently stored in two seperate columns.  Find way to combine into single column in an array under cj_img_url db column?
     - How to confirm if new images are set?  If count array = 2 then new image has been added and to use that one.  
     - This keeps original image url intact in case user want to delete all new iamges in case of error
     - Create delete new images button.
