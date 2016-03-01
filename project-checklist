@@ -33,11 +33,21 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     -(COMPLETED) Input data used to control this function is serialized and store in campaigns db
     - (COMPLETED)Pulls in test link and after user determines what method to use to try and enlarge the image it provides a test link where the user can verify that their input has sucessfully changed the image size.
     - (COMPLETED)Add button to then update all the images.
+    - (COMPLETED)Move Image Modify into own tab - use advertiser ID as search componment not campaign id-
+        ----This allows for a one and done shot if all products come from same advertiser
+    - (COMPLETED)Create  list to show in cj-image-resize of avertiser id's already completed.
+    - (COMPLETED)create delete resized image button with verify.
+    - (COMPLETED)compare future created campaigns and add seraialzed image data to that new campaign
     - (NEED TO VERIFY - Single Word & Dual Number) create ajax to add new iamges to all products in current campaign.
-    - Images currently stored in two seperate columns.  Find way to combine into single column in an array under cj_img_url db column?
+    - (POSTPONED INDEFINETLY)Images currently stored in two seperate columns.  Find way to combine into single column in an array             under cj_img_url db column?
+        GET cj_img_update for sku
+        if(cj_img_update != 'delete' || cj_img_update != ''){
+            $new_img_url = 
+    
     - How to confirm if new images are set?  If count array = 2 then new image has been added and to use that one.  
     - This keeps original image url intact in case user want to delete all new iamges in case of error
-    - Create delete new images button.
+    - Find single word image edit and test
+    - Set image data set when creating campaign 
     
 
 8.  Cron job Set Up
@@ -48,7 +58,7 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
     - Create function that removes all cron scheules and events when plugin is deactivated.
     
-9.  - add create new category option to "create campaign" page & Single campaign Page
+9.  - add create new category option to "create campaign" page & Single campaign Page cj-display-products.php
 
 10. - Get new post count on single campaign update
 
