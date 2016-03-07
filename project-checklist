@@ -38,20 +38,33 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     - (COMPLETED)Create  list to show in cj-image-resize of avertiser id's already completed.
     - (COMPLETED)create delete resized image button with verify.
     - (COMPLETED)compare future created campaigns and add seraialzed image data to that new campaign
-    - (NEED TO VERIFY - Single Word & Dual Number) create ajax to add new iamges to all products in current campaign.
+  
     - (POSTPONED INDEFINETLY)Images currently stored in two seperate columns.  Find way to combine into single column in an array             under cj_img_url db column?
        
     
-    - How to confirm if new images are set?  If count array = 2 then new image has been added and to use that one. 
+    -(COMPLETED) How to confirm if new images are set?  If count array = 2 then new image has been added and to use that one. 
      GET cj_img_update for sku
         if(cj_img_update != 'delete' || cj_img_update != ''){
             $new_img_url = 
-    - This keeps original image url intact in case user want to delete all new iamges in case of error
-    - Find single word image edit and test
+    - (COMPLETED)This keeps original image url intact in case user want to delete all new iamges in case of error
+   
     - (COMPLETED)Set image data set when creating campaign 
     - (COMPLETED)Duplicate product delete check line 618
     
+    
+    - (COMPLETED)Set Category inputs for "user Template" in hiearchal dropdown menus
+    - (COMPLETED)make sure default category set when campaign is created is displayed on display products page
+    
+    - (COMPLETED)fix categories in single-campaign.php
+    
     - Check Databases to make sure they match in code and in phpmyadmin
+    
+    - Intgrate WooCommerce product categores into 
+        a) Create Campaigns
+        b) Display Products
+        c) Single Display
+    
+    - (NEED TO VERIFY - Single Word & Dual Number) create ajax to add new iamges to all products in current campaign.
     
 
 8.  Cron job Set Up
