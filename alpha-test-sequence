@@ -1,5 +1,12 @@
 1. Load and Install Plugin
+    - The plugin generated 2 characters of unexpected output during activation
 
-2. Check Database Tables Installed
+2. Check Database Tables Installed 
+    (Success)
 
 3. Check if default template loaded in db
+    (Success)
+
+4. Set Options on options Page
+
+5. 
