@@ -57,12 +57,12 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     
     - (COMPLETED)fix categories in single-campaign.php
     
-    - Check Databases to make sure they match in code and in phpmyadmin
+    - (COMPLETED)Check Databases to make sure they match in code and in phpmyadmin
     
     - Intgrate WooCommerce product categores into 
-        a) Create Campaigns
-        b) Display Products
-        c) Single Display
+        a) (COMPLETED)Create Campaigns
+        b) (COMPLETED)Display Products
+        c) (COMPLETED)Single Display
     
     - (NEED TO VERIFY - Single Word & Dual Number) create ajax to add new iamges to all products in current campaign.
     
@@ -75,11 +75,16 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
     - Create function that removes all cron scheules and events when plugin is deactivated.
     
-9.  - add create new category option to "create campaign" page & Single campaign Page cj-display-products.php
+9.  - Set Default low price max price to 1 and 1000000
+    
+9.  - (COMPLETED)add create new category option to "create campaign" page & Single campaign Page cj-display-products.php
+
+
 
 10. - Get new post count on single campaign update
 
-11. - Option To use api url's for images or upload them into media library...if large site with tons of images this will reduce overall size of site.
+11. - (Removed)Option To use api url's for images or upload them into media library...if large site with tons of images this will reduce overall size of site.
 
+12- update cron job when time changed in single-campaign.php
 12 _  make sure update api button does not override image resize in db
 12. - Verify Mobile Responsive Look and feel for all admin pages
