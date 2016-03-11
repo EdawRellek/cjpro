@@ -74,8 +74,13 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     - Create function that executes changing the post status when cron fires
     - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
     - Create function that removes all cron scheules and events when plugin is deactivated.
+    - If Cron Job option not selected skip cron functions
     
 9.  - Set Default low price max price to 1 and 1000000
+
+10. - Remove second Manufacturere input from create campaign
+
+11. - Add delay ( in minutes ) to start of first post
     
 9.  - (COMPLETED)add create new category option to "create campaign" page & Single campaign Page cj-display-products.php
 
