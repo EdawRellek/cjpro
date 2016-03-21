@@ -69,12 +69,14 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
 
 8.  Cron job Set Up
     - Make sure post status is set to default if Cron Is being used.  If checkbox on Options page is set set default post status to 'pending'/draft
-    - Create Cron Schedule For each campaign that creates a unique timeframe.
-    - Create Cron Event for each campaign 
+    - (COMPLETED)Create Cron Schedule For each campaign that creates a unique timeframe.
+    - (COMPLETED)Create Cron Event for each campaign 
     - Create function that executes changing the post status when cron fires
     - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
     - Create function that removes all cron scheules and events when plugin is deactivated.
     - If Cron Job option not selected skip cron functions
+    - If Drip Posts is checked show form input on create campaign page and make it required, otherwise to do not show input field
+    - Set delay of cron start? Hours and Minutes??? ---  $delay var set as default in cj-create.php around line 700  
     
 9.  - Set Default low price max price to 1 and 1000000
 
