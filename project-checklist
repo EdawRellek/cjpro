@@ -96,4 +96,6 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
         ****WILL AUTOMATICALLY USE SOURCE URL
 16-    (COMPLETED) update cron job when time changed in single-campaign.php
 17 _  make sure update api button does not override image resize in db
+
+18. - create error logs page and add to cj-tabs.php
 18. - Verify Mobile Responsive Look and feel for all admin pages
