@@ -67,32 +67,33 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
     - (NEED TO VERIFY - Single Word & Dual Number) create ajax to add new iamges to all products in current campaign.
     
 
-8.  Cron job Set Up
+9.  Cron job Set Up
     - (COMPLETED)Make sure post status is set to default if Cron Is being used.  If checkbox on Options page is set set default post status to 'pending'/draft
     - (COMPLETED)Create Cron Schedule For each campaign that creates a unique timeframe.
     - (COMPLETED)Create Cron Event for each campaign 
-    - Create function that executes changing the post status when cron fires
-    - Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
+    - (COMPLETED)Create function that executes changing the post status when cron fires
+    - (COMPLETED)Create function that removes cron event and cron schedule (if not being used by another campaign) when user changes the timeframe of when the cron fires
     - Create function that removes all cron scheules and events when plugin is deactivated.
-    - If Cron Job option not selected skip cron functions
-    - If Drip Posts is checked show form input on create campaign page and make it required, otherwise to do not show input field
-    - Add input field for cron time on single-campaign.php
-    - Set delay of cron start? Hours and Minutes??? ---  $delay var set as default in cj-create.php around line 700  
+    - (COMPLETED - If No Cron Set it will not run by default....right?) If Cron Job option not selected skip cron functions
+    - (COMPLETED)If Drip Posts is checked show form input on create campaign page and make it required, otherwise to do not show input field
+    - (COMPLETED)Add input field for cron time on single-campaign.php
+
     
-9.  - Set Default low price max price to 1 and 1000000
+10.  - (COMPLETED)Set Default low price max price to 1 and 1000000
 
-10. - Remove second Manufacturere input from create campaign
+11. - (COMPLETED)Remove second Manufacturere input from create campaign
 
-11. - Add delay ( in minutes ) to start of first post
+12. - Add delay ( in minutes ) to start of first post -Set delay of cron start? Hours and Minutes??? ---  
+        $delay var set as default in cj-create.php around line 700
     
-9.  - (COMPLETED)add create new category option to "create campaign" page & Single campaign Page cj-display-products.php
+13.  - (COMPLETED)add create new category option to "create campaign" page & Single campaign Page cj-display-products.php
 
+14. - (Skipped) Get new post count on single campaign update **** User can get new post count when updating API on display campaigns
+        page when they hit the "update" button
 
-
-10. - Get new post count on single campaign update
-
-11. - (Removed)Option To use api url's for images or upload them into media library...if large site with tons of images this will reduce overall size of site.
-
-12- update cron job when time changed in single-campaign.php
-12 _  make sure update api button does not override image resize in db
-12. - Verify Mobile Responsive Look and feel for all admin pages
+15. - (Removed)Option To use api url's for images or upload them into media library...
+        if large site with tons of images this will reduce overall size of site.
+        ****WILL AUTOMATICALLY USE SOURCE URL
+16-    (COMPLETED) update cron job when time changed in single-campaign.php
+17 _  make sure update api button does not override image resize in db
+18. - Verify Mobile Responsive Look and feel for all admin pages
