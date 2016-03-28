@@ -99,3 +99,6 @@ Here is a list of TO DO's that I will be adding to and hopefully checking off in
 
 18. - create error logs page and add to cj-tabs.php
 18. - Verify Mobile Responsive Look and feel for all admin pages
+
+19. - If cron job set. create a time delay bewtween cron events if stacked on top of each other.  Example if 3 cron events are trying to run 
+    at the same time create a buffer bewtween posts.  Time frame set by user in options page. similar to process in auctionposter pro
